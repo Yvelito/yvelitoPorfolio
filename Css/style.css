@@ -1,0 +1,608 @@
+body { background-image: url(../Img/halftone-background-with-circles_23-2148907689.avif);
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Pro', serif;
+    }
+
+
+p{
+    font-family: 'Crimson Pro', serif;
+}
+
+
+
+    
+/* Default styles */
+/* Add your default styles here */
+
+/* Media query for tablets (landscape) and smaller screens */
+@media screen and (max-width: 1024px) {
+    /* Adjust styles for tablet screens */
+    /* For example: */
+    .logo {
+        width: 100px; /* Adjust logo width for tablet screens */
+    }
+
+    /* Adjust other elements as needed */
+}
+
+/* Media query for smaller screens (portrait) */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    /* For example: */
+    .logo {
+        width: 50px; /* Adjust logo width for smaller screens */
+    }
+
+    /* Adjust other elements as needed */
+}
+
+    
+/*mobile screens */
+@media (max-width: 800px) and (min-width: 300px) {
+    .about-me img {
+      display:block;
+      margin: 0 auto;
+    }
+    .portfolio img {
+      max-width: 150px;
+      margin-top: 170px;
+    }
+
+    #have-chat {
+      padding-top: 20px;
+    }
+
+    .contact-links {
+      padding-top: 35px;
+    }
+
+    #footer-links li {
+      padding: 0 15px;
+
+    }
+
+    .skill {
+      font-size: 5vw;
+    }
+    ul {
+      font-size: 4.5vw;
+      width: 80%;
+    }
+    #pageTwoLabel {
+      font-size: 13vw;
+    }
+    .pageOne {
+      background-size: 100% 100%;
+      height: 450px;
+    }
+    .title {
+      padding-bottom: 10px;
+      width: 90%;
+      top: 100px;
+    }
+    .border {
+      width: 25%;
+      border-width: 2px;
+    }
+    .pageTitles {
+      width: 85%;
+    }
+    #pageTitle {
+      padding-bottom: 15px;
+      font-size: 12vw;
+    }
+    /*skill category title */
+    #pageTwoLabel {
+      font-size: 10vw;
+      padding-bottom: 10px;
+    }
+  }
+   
+    
+    
+/* Contact Form Styles */
+
+/*contact form email*/
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, ;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: black;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+    color: black;
+
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.skills {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #ffffff00;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    margin: 0 0 5px;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 20px;
+    background-color:rgb(93, 202, 223);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+h5{
+  font-family: sans-serif;
+    text-transform: uppercase;
+    color:#ee227c;
+    margin-right: 50px;
+
+}
+
+h2,
+h3,
+h4,
+h6 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color:rgb(93, 202, 223);
+    margin-right: 50px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+}
+
+*{ 
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.navbar { 
+font-size: calibri;text-size-adjust: 10px; 
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-decoration-color: rgb(93, 202, 223);
+ text-align:right; 
+ font-weight:bold ; 
+ margin: right 50px;
+ text-transform:uppercase;
+ padding-left:10px;
+
+ 
+}
+
+
+nav a {
+  text-decoration: none;
+  color:#ee227c;
+  width: 100px; 
+  padding: 15px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+}
+
+#main-paragraph::first-letter{
+    font-size: xx-large;
+    color:rgb(93, 202, 223);
+    
+}
+  
+#main-paragraph{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
+.intro{
+ 
+   flex-basis: 50%;
+    
+    
+}
+
+ h1 {
+    text-align: center;
+    font-family: Tahoma, Arial, sans-serif;
+    color:#ee227c; 
+    margin: 20px 0;
+    position: relative;
+    font-size: 3vw;
+    -webkit-text-stroke: 0.3vw gray; 
+    text-transform: uppercase;
+  }
+  
+h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ee227c;
+    -webkit-text-stroke:rgb(93, 202, 223);
+    border-right: rgb(93, 202, 223);
+    overflow: hidden;
+    animation:alternate 6% linear infinite;
+}
+
+
+.container{
+    padding: 2rem;
+ }
+.slider-wrapper{
+    position: relative;
+    max-width: 15rem;
+    margin: 0 auto;
+}
+.slider {
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 0rem 0rem --0.75rem hsla(0, 0%, 0%, 0.25);
+}
+ .slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+ }
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left:50% ;
+    transform: translateX(-50%);
+    z-index: 1;
+} 
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color:#ee227c;
+    opacity: 0.75;
+    transition: opacity ease 250ms ; 
+}
+
+.slider-nav a:hover {
+    opacity:1 ;
+}
+
+
+
+
+
+
+
+
+
+#sidebarMenu {
+    height: 100%;
+    position:fixed;
+    left: 0;
+    width: 250px;
+    margin-top: 60px;
+    transform: translateX(-250px);
+    transition: transform 250ms ease-in-out;
+    background: linear-gradient(180deg, rgba(40, 172, 233, 0.392) 0, bisque 100%);
+    justify-content: flex-start;
+}
+
+
+
+.sidebarMenuInner{
+    margin:0;
+    padding:0;
+    
+    border-top: 1px solid rgb(93, 202, 223);
+   
+}
+
+
+.sidebarMenuInner li{
+    list-style: none;
+    color:#ee227c;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid#ee227c;
+}
+.sidebarMenuInner li span{
+    display: block;
+    font-size: 14px;
+    color: brown(255, 255, 255, 0.50);
+}
+.sidebarMenuInner li a{
+    color: #ee227c;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+input[type="checkbox"]:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
+
+input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+}
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 22px;
+    left: 15px;
+    height: 22px;
+    width: 22px;
+}
+.spinner {
+    display: flex;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+   background-color:#ee227c;
+}
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+}
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+
+
+
+
+  
+
+
+
+
+
+.typewriter {
+    overflow: hidden; /* Ensures the text is not shown outside the boundaries */
+    border-right: .15em solid #ee227c; /* The typewriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Centers the text horizontally */
+    letter-spacing: .15em; /* Adjusts spacing between characters */
+    animation: typing 4s steps(75, end), blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing animation */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor animation */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    
+  }
+
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 170px; /* Adjust the width and height to fit the circle */
+    height: 170px;
+    background-color:rgb(93, 202, 223); /* Change to your desired background color */
+    border-radius: 50%; /* Creates a circle */
+    box-shadow: 6px 6px 16px rgb(93, 202, 223);
+    z-index: -1; /* Place the circle behind the image */
+  }
+  
+
+  
+
+ 
+ 
+  
+
+.secondPage{
+    display: flex;
+    
+}
+
+.secondPageimage{
+    flex-basis: 50%;
+}
+  
+
+/* Image Box */
+
+  
+ 
+  .first-box {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5px;
+    overflow: hidden;
+  }
+  
+  .box1,
+  .box2{
+    position: relative;
+    left: 2%;
+ 
+    height: 57vh;
+    width: 45%;
+    overflow: hidden;
+    margin: 5px;
+    border-radius: 22px;
+    padding: 3px;
+    box-shadow: 6px 6px 16px rgb(93, 202, 223);
+    margin: 10px;
+  }
+  
+ 
+  
+  .box1-imge,
+  .box2-imge{
+    overflow: hidden;
+    border-radius: 20px;
+    overflow: hidden;
+    
+  }
+  
+  .Project-sec {
+    display: flex;
+    height: 205px;
+margin-top: 20px;
+justify-content: center;
+    
+}
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+  
+
